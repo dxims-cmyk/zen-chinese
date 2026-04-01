@@ -21,8 +21,8 @@ export default function Features() {
             const Icon = icons[i];
             return (
               <div key={feature.title} className="text-center group">
-                <div className="inline-flex items-center justify-center w-14 h-14 bg-[#1a1a1a] mb-6 group-hover:bg-[#D63031] transition-colors">
-                  <Icon className="w-6 h-6 text-[#F9F6F2]" />
+                <div className="inline-flex items-center justify-center w-14 h-14 mb-6">
+                  <Icon className="w-7 h-7 text-[#D63031] group-hover:text-[#1a1a1a] transition-colors" />
                 </div>
                 <h3 className="font-heading text-lg font-bold text-[#1a1a1a] mb-3">
                   {feature.title}
