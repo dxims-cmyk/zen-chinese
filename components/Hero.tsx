@@ -8,14 +8,14 @@ export default function Hero() {
 
       <div className="relative text-center max-w-3xl mx-auto">
         <div className="mb-6">
-          <div className="w-12 h-[2px] bg-[#D63031] mx-auto mb-10" />
+          <div className="w-12 h-[2px] bg-[#7BC142] mx-auto mb-10" />
           <h1 className="font-heading text-7xl sm:text-8xl md:text-9xl font-bold text-[#F9F6F2] tracking-tight leading-none">
             {siteConfig.name}
           </h1>
-          <div className="w-12 h-[2px] bg-[#D63031] mx-auto mt-6" />
+          <div className="w-12 h-[2px] bg-[#7BC142] mx-auto mt-6" />
         </div>
 
-        <p className="text-[#D63031] text-lg sm:text-xl font-heading font-medium tracking-wide mb-3">
+        <p className="text-[#7BC142] text-lg sm:text-xl font-heading font-medium tracking-wide mb-3">
           {siteConfig.tagline}
         </p>
         <p className="text-[#F9F6F2]/50 text-sm font-body mb-8">
@@ -23,7 +23,7 @@ export default function Hero() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-10">
-          <a href={`tel:${siteConfig.phone.replace(/\s/g, "")}`} className="inline-flex items-center gap-3 bg-[#D63031] hover:bg-[#E84142] text-[#F9F6F2] font-body font-semibold px-8 py-4 text-lg transition-colors">
+          <a href={`tel:${siteConfig.phone.replace(/\s/g, "")}`} className="inline-flex items-center gap-3 bg-[#7BC142] hover:bg-[#8CD454] text-[#F9F6F2] font-body font-semibold px-8 py-4 text-lg transition-colors">
             <Phone className="w-5 h-5" />
             Order Now
           </a>

@@ -14,10 +14,10 @@ export default function Footer() {
           </div>
 
           <div className="flex items-center gap-4">
-            <a href={siteConfig.facebook} target="_blank" rel="noopener noreferrer" className="text-[#F9F6F2]/30 text-sm hover:text-[#D63031] transition-colors font-body">
+            <a href={siteConfig.facebook} target="_blank" rel="noopener noreferrer" className="text-[#F9F6F2]/30 text-sm hover:text-[#7BC142] transition-colors font-body">
               Facebook
             </a>
-            <a href={`tel:${siteConfig.phone.replace(/\s/g, "")}`} className="text-[#F9F6F2]/50 hover:text-[#D63031] transition-colors" aria-label="Phone">
+            <a href={`tel:${siteConfig.phone.replace(/\s/g, "")}`} className="text-[#F9F6F2]/50 hover:text-[#7BC142] transition-colors" aria-label="Phone">
               <Phone className="w-5 h-5" />
             </a>
           </div>

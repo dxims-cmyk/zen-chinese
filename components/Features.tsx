@@ -22,7 +22,7 @@ export default function Features() {
             return (
               <div key={feature.title} className="text-center group">
                 <div className="inline-flex items-center justify-center w-14 h-14 mb-6">
-                  <Icon className="w-7 h-7 text-[#D63031] group-hover:text-[#1a1a1a] transition-colors" />
+                  <Icon className="w-7 h-7 text-[#7BC142] group-hover:text-[#1a1a1a] transition-colors" />
                 </div>
                 <h3 className="font-heading text-lg font-bold text-[#1a1a1a] mb-3">
                   {feature.title}

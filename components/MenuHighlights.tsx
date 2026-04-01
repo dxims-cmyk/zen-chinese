@@ -19,7 +19,7 @@ export default function MenuHighlights() {
               key={item.name}
               className="bg-[#1a1a1a] p-6 hover:bg-[#222] transition-colors group"
             >
-              <div className="w-8 h-[2px] bg-[#D63031] mb-4 group-hover:w-12 transition-all" />
+              <div className="w-8 h-[2px] bg-[#7BC142] mb-4 group-hover:w-12 transition-all" />
               <h3 className="font-heading text-base font-bold text-[#F9F6F2] mb-3">
                 {item.name}
               </h3>

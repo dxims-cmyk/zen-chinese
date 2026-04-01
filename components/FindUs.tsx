@@ -17,7 +17,7 @@ export default function FindUs() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
           <div className="space-y-8">
             <div className="flex items-start gap-4">
-              <MapPin className="w-5 h-5 text-[#D63031] mt-1 flex-shrink-0" />
+              <MapPin className="w-5 h-5 text-[#7BC142] mt-1 flex-shrink-0" />
               <div>
                 <p className="text-[#F9F6F2] font-body font-medium">
                   {siteConfig.address.street}
@@ -29,17 +29,17 @@ export default function FindUs() {
             </div>
 
             <div className="flex items-start gap-4">
-              <Phone className="w-5 h-5 text-[#D63031] mt-1 flex-shrink-0" />
+              <Phone className="w-5 h-5 text-[#7BC142] mt-1 flex-shrink-0" />
               <a
                 href={`tel:${siteConfig.phone.replace(/\s/g, "")}`}
-                className="text-[#F9F6F2] hover:text-[#D63031] transition-colors font-body"
+                className="text-[#F9F6F2] hover:text-[#7BC142] transition-colors font-body"
               >
                 {siteConfig.phoneDisplay}
               </a>
             </div>
 
             <div className="flex items-start gap-4">
-              <Clock className="w-5 h-5 text-[#D63031] mt-1 flex-shrink-0" />
+              <Clock className="w-5 h-5 text-[#7BC142] mt-1 flex-shrink-0" />
               <div>
                 <p className="text-[#F9F6F2] font-body font-medium">Open 7 Days</p>
                 <p className="text-[#F9F6F2]/50 font-body">{siteConfig.hours}</p>

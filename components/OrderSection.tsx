@@ -18,7 +18,7 @@ export default function OrderSection() {
         <div className="flex flex-col gap-4 items-center">
           <a
             href={`tel:${siteConfig.phone.replace(/\s/g, "")}`}
-            className="inline-flex items-center gap-3 bg-[#D63031] hover:bg-[#E84142] text-[#F9F6F2] font-body font-semibold px-10 py-5 text-xl transition-colors w-full max-w-sm justify-center"
+            className="inline-flex items-center gap-3 bg-[#7BC142] hover:bg-[#8CD454] text-[#F9F6F2] font-body font-semibold px-10 py-5 text-xl transition-colors w-full max-w-sm justify-center"
           >
             <Phone className="w-6 h-6" />
             {siteConfig.phoneDisplay}

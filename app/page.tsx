@@ -9,6 +9,8 @@ import FindUs from "@/components/FindUs";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import ScrollReveal from "@/components/ScrollReveal";
+import EnsoCircle from "@/components/EnsoCircle";
+import Gallery from "@/components/Gallery";
 
 export default function Home() {
   return (
@@ -17,8 +19,11 @@ export default function Home() {
       <Header />
       <Hero />
       <Story />
+      <EnsoCircle className="bg-[#F9F6F2]" />
       <Features />
+      <Gallery />
       <MenuHighlights />
+      <EnsoCircle className="bg-[#F9F6F2]" />
       <Reviews />
       <OrderSection />
       <FindUs />

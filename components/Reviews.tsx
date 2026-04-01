@@ -32,7 +32,7 @@ export default function Reviews() {
           {siteConfig.reviews.map((review) => (
             <div
               key={review.author}
-              className="bg-white p-6 border border-[#1a1a1a]/5 hover:border-[#D63031]/20 transition-colors"
+              className="bg-white p-6 border border-[#1a1a1a]/5 hover:border-[#7BC142]/20 transition-colors"
             >
               <div className="flex gap-0.5 mb-4">
                 {Array.from({ length: review.rating }).map((_, i) => (

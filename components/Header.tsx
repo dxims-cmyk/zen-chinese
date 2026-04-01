@@ -26,7 +26,7 @@ export default function Header() {
           ))}
           <a
             href={`tel:${siteConfig.phone.replace(/\s/g, "")}`}
-            className="inline-flex items-center gap-2 bg-[#D63031] hover:bg-[#E84142] text-[#F9F6F2] font-body font-medium px-5 py-2 text-sm transition-colors"
+            className="inline-flex items-center gap-2 bg-[#7BC142] hover:bg-[#8CD454] text-[#F9F6F2] font-body font-medium px-5 py-2 text-sm transition-colors"
           >
             <Phone className="w-4 h-4" />
             Order Now
@@ -56,7 +56,7 @@ export default function Header() {
           ))}
           <a
             href={`tel:${siteConfig.phone.replace(/\s/g, "")}`}
-            className="block text-center bg-[#D63031] hover:bg-[#E84142] text-[#F9F6F2] font-body font-semibold px-6 py-3 mt-4 transition-colors"
+            className="block text-center bg-[#7BC142] hover:bg-[#8CD454] text-[#F9F6F2] font-body font-semibold px-6 py-3 mt-4 transition-colors"
           >
             Call to Order
           </a>
