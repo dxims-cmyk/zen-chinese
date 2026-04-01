@@ -11,6 +11,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import ScrollReveal from "@/components/ScrollReveal";
 import EnsoCircle from "@/components/EnsoCircle";
 import Gallery from "@/components/Gallery";
+import Marquee from "@/components/Marquee";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <ScrollReveal />
       <Header />
       <Hero />
+      <Marquee />
       <Story />
       <EnsoCircle className="bg-[#F9F6F2]" />
       <Features />
