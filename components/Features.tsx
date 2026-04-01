@@ -5,9 +5,9 @@ const icons = [ChefHat, Flame, MapPin];
 
 export default function Features() {
   return (
-    <section className="py-24 px-4 bg-[#F9F6F2]">
+    <section className="py-16 md:py-20 px-4 bg-[#F9F6F2]">
       <div className="max-w-5xl mx-auto">
-        <div className="text-center mb-16">
+        <div className="text-center mb-10">
           <p className="text-[#C7A951] text-sm font-heading font-medium tracking-widest uppercase mb-3">
             Why Zen
           </p>

@@ -3,7 +3,7 @@ import { siteConfig } from "@/lib/config";
 
 export default function OrderSection() {
   return (
-    <section id="order" className="py-24 px-4 bg-[#F9F6F2]">
+    <section id="order" className="py-16 md:py-20 px-4 bg-[#F9F6F2]">
       <div className="max-w-xl mx-auto text-center">
         <p className="text-[#C7A951] text-sm font-heading font-medium tracking-widest uppercase mb-3">
           Hungry?

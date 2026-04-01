@@ -2,9 +2,9 @@ import { siteConfig } from "@/lib/config";
 
 export default function MenuHighlights() {
   return (
-    <section id="menu" className="py-24 px-4 bg-[#1a1a1a]">
+    <section id="menu" className="py-16 md:py-20 px-4 bg-[#1a1a1a]">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-16">
+        <div className="text-center mb-10">
           <p className="text-[#C7A951] text-sm font-heading font-medium tracking-widest uppercase mb-3">
             The Menu
           </p>

@@ -3,9 +3,9 @@ import { siteConfig } from "@/lib/config";
 
 export default function FindUs() {
   return (
-    <section id="find-us" className="py-24 px-4 bg-[#1a1a1a]">
+    <section id="find-us" className="py-16 md:py-20 px-4 bg-[#1a1a1a]">
       <div className="max-w-4xl mx-auto">
-        <div className="text-center mb-12">
+        <div className="text-center mb-10">
           <p className="text-[#C7A951] text-sm font-heading font-medium tracking-widest uppercase mb-3">
             Location
           </p>

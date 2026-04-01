@@ -3,7 +3,7 @@ import { siteConfig } from "@/lib/config";
 
 export default function Reviews() {
   return (
-    <section className="py-24 px-4 bg-[#F9F6F2]">
+    <section className="py-16 md:py-20 px-4 bg-[#F9F6F2]">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-4">
           <p className="text-[#C7A951] text-sm font-heading font-medium tracking-widest uppercase mb-3">
@@ -14,7 +14,7 @@ export default function Reviews() {
           </h2>
         </div>
 
-        <div className="flex items-center justify-center gap-2 mb-14">
+        <div className="flex items-center justify-center gap-2 mb-10">
           <div className="flex gap-0.5">
             {Array.from({ length: 5 }).map((_, i) => (
               <Star
